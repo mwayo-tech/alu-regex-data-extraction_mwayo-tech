@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "lines_processed": 74,
+    "lines_skipped_as_suspicious": 4
+  },
+  "emails": {
+    "alu_official": [
+      "m.wayo@alueducation.com",
+      "support@alueducation.com",
+      "student.help@alueducation.com"
+    ],
+    "alu_alumni": [
+      "m.wayo@alumni.alueducation.com",
+      "g.n@alumni.alueducation.com"
+    ],
+    "alu_si": [
+      "k.osei@si.alueducation.com",
+      "weird.email.with.plus+tag123@si.alueducation.com"
+    ],
+    "general": [
+      "g.nyamwasa+events@gmail.com"
+    ]
+  },
+  "credit_cards": {
+    "valid": [
+      {
+        "brand": "visa",
+        "masked": "**** **** **** 6467",
+        "luhn_valid": true
+      },
+      {
+        "brand": "visa",
+        "masked": "**** **** **** 4242",
+        "luhn_valid": true
+      },
+      {
+        "brand": "amex",
+        "masked": "**** **** **** 0005",
+        "luhn_valid": true
+      },
+      {
+        "brand": "mastercard",
+        "masked": "**** **** **** 5100",
+        "luhn_valid": true
+      }
+    ],
+    "rejected_failed_luhn": [
+      {
+        "brand": "visa",
+        "masked": "**** **** **** 1112",
+        "luhn_valid": false
+      }
+    ]
+  },
+  "urls": [
+    "https://portal.alueducation.com/login",
+    "http://cohort-resources.alueducation.com/2026/week3?ref=slack&id=88",
+    "https://events.alueducation.com/receipts/2026/09/rcpt_88213.pdf",
+    "https://calendar.alueducation.com/view#week=37"
+  ],
+  "phone_numbers": [
+    "+250 788 123 456",
+    "(078) 234-5678",
+    "0723456789",
+    "24-555-0199",
+    "+233-247-975-380"
+  ]
+}
