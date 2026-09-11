@@ -169,7 +169,7 @@ def classify_email(email: str) -> str:
     return "general"
 
 
-def validate_phone(raw_candidate: str) -> str | None:
+def validate_phone(raw_candidate: str):
     """
     Take a raw regex candidate and decide if it's plausible enough to keep.
     Returns a cleaned representation, or None to reject.
